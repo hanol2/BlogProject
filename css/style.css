@@ -1,0 +1,42 @@
+@import url('component/header.css');
+@import url('component/itsme.css');
+@import url('component/box_img.css');
+@import url('component/about.css');
+
+
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    height: 1000px;
+    margin: 0;
+}
+
+.sky{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sky__title{
+    position: absolute;
+
+    font-size: 60px;
+}
+
+.sky img{
+    width: 100%;
+    height: 700px;
+}
+
+.inverted{
+    background-color: inherit;
+    border: none;
+}
+
+.hidden{
+    display: none;
+}

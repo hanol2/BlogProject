@@ -1,0 +1,79 @@
+.box_img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.what{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin : 0px 20px 40px 20px;
+}
+.what img{
+    border-radius: 20px;
+}
+.what span{
+    position: absolute;
+    color: white;
+    font-weight: 900;
+    font-size: 50px;
+}
+
+.is{
+    position:relative;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin : 0px 20px 40px 20px;
+}
+.is img{
+    border-radius: 20px;
+}
+.is span{
+    position:absolute;
+    color:white;
+    font-weight: 900;
+    font-size:50px;
+}
+
+.your{
+    position:relative;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin : 0px 20px 0px 20px;
+}
+.your img{
+    border-radius: 20px;
+}
+.your span{
+    position:absolute;
+    color:white;
+    font-weight: 900;
+    font-size:50px;
+}
+
+.name {
+    position:relative;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin : 0px 20px 0px 20px;
+}
+.name img{
+    border-radius: 20px;
+}
+.name span{
+    position: absolute;
+    color:white;
+    font-weight: 900;
+    font-size: 50px;
+}
+
+.what:hover, .is:hover, .your:hover, .name:hover{
+    opacity: 0.9;
+    scale: 1.1;
+    transition: ease-in 1s;
+}

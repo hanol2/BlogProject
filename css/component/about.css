@@ -1,0 +1,36 @@
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about_box_title{
+    font-size:20px;
+    color:rgb(255, 175, 175);
+}
+
+.about_box_list{
+    display: flex;
+    justify-content: center;
+    width: 1000px;
+    justify-content: space-around;
+}
+
+
+.about_box_list p{
+    font-size:30px;
+    font-weight: 900;
+}
+
+.about_box_list img{
+    border-radius: 20px;
+    width:400px;
+    height: 500px;
+}
+
+.about img:hover{
+    opacity: 0.9;
+    scale: 1.1;
+    transition: ease-in 1s;
+}
